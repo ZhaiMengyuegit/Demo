@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#EEE9E9">
+    <TextView
+        android:id="@+id/bottom_one"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:drawableTop="@drawable/main"
+
+        android:clickable="false"
+        android:text="阅读时刻"/>
+    <TextView
+        android:id="@+id/bottom_two"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:drawableTop="@drawable/mine"
+        android:clickable="false"
+        android:text="我的中心"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <fragment
+        android:id="@+id/bottom_fragment"
+        android:name="com.example.myreading.Fragment.BottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:layout="@layout/bottom" />
+</LinearLayout>

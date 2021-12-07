@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/login_register"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用，请先登录"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#50ffffff"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:id="@+id/login_img_logo"
+        android:background="#50ffffff"/>
+
+    <TableRow android:layout_marginTop="80dp">
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="用户名："
+            android:textSize="18dp"
+            android:background="#50ffffff"/>
+
+        <EditText
+            android:id="@+id/login_edit_account"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:inputType="textPersonName"
+            android:hint="请输入您的用户名"
+            android:minWidth="400px"
+            android:textSize="18dp"
+            android:background="#50ffffff"/>
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="密码："
+            android:textSize="18dp"
+            android:background="#50ffffff"/>
+
+        <EditText
+            android:id="@+id/login_edit_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:inputType="textPassword"
+            android:hint="请输入您的密码"
+            android:minWidth="400px"
+            android:textSize="18dp"
+            android:background="#50ffffff"/>
+
+        <TextView />
+    </TableRow>
+    <TableRow>
+
+        <TextView />
+
+        <ImageView
+            android:id="@+id/login_img_yzm"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#50ffffff"/>
+
+        <EditText
+            android:id="@+id/login_edit_yzm"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:hint="请输入验证码"
+            android:background="#50ffffff"/>
+
+
+
+    </TableRow>
+    <TableRow  android:layout_marginTop="5dp">
+        <TextView/>
+        <TextView/>
+
+        <TextView
+            android:id="@+id/login_text_change_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="修改密码"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="25dp">
+        <TextView />
+        <Button
+            android:id="@+id/login_btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="注册"
+            android:background="#b7585556"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/login_btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="登录"
+            android:background="#3c8dc4"
+            android:textColor="#ffffff"/>
+
+        <TextView />
+    </TableRow>
+
+
+
+
+</TableLayout>
+

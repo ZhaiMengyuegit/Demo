@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/read_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:clickable="false"
+            android:text="句"/>
+        <TextView
+            android:id="@+id/read_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:clickable="false"
+            android:text="诗"/>
+        <TextView
+            android:id="@+id/read_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:clickable="false"
+            android:text="文"/>
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/read_vp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

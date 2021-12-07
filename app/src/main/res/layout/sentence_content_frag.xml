@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+    andriod:id="@+id/sentence_visibility_layout"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    andriod:orientation="vertical"
+    andriod:visibility="visible"
+    andriod:background="@drawable/fragment_one">
+
+    <TextView
+        andriod:id="@+id/sentence_content_content"
+        andriod:layout_width="400dp"
+        andriod:layout_height="400dp"
+        andriod:textSize="20sp"
+        andriod:gravity="bottom"
+        andriod:layout_gravity="center"/>
+
+      <TextView
+        andriod:id="@+id/sentence_content_source"
+        andriod:layout_width="400dp"
+        andriod:layout_height="wrap_content"
+        andriod:gravity="right"
+        andriod:textSize="20sp"/>
+
+</LinearLayout>
